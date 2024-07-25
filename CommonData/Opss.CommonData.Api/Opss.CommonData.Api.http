@@ -1,6 +1,0 @@
-@Opss.CommonData.Api_HostAddress = http://localhost:5236
-
-GET {{Opss.CommonData.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

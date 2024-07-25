@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  audit:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8080"
+  data:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8080"

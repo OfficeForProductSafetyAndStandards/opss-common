@@ -1,0 +1,11 @@
+services:
+   audit:
+     image: ${DOCKER_REGISTRY-}audit
+     build:
+       context: .
+       dockerfile: CommonAudit/Opss.CommonAudit.Api/Dockerfile
+   data:
+     image: ${DOCKER_REGISTRY-}data
+     build:
+       context: .
+       dockerfile: CommonData/Opss.CommonData.Api/Dockerfile
